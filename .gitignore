@@ -1,0 +1,28 @@
+# Ignore the .env file (contains sensitive information)
+.env
+
+# Ignore the virtual environment folder
+venv/
+env/
+
+# Ignore Python compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore the SQLite database file (if you don't want to track it)
+db.sqlite3
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore static files collected by Django (if applicable)
+staticfiles/
+
+# Ignore macOS-specific files
+.DS_Store
+
+# Ignore Windows-specific files
+Thumbs.db
